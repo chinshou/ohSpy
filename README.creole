@@ -1,0 +1,11 @@
+== Summary ==
+
+OhNetSpy is a (quickly thrown together) example OhNet application that scans the network for UPnP devices, lists them, their services and the contents of their services, and provides a view of their device and service XML descriptions.
+
+== Building ==
+
+First of all build ohNet. Copy ohNet.dll and ohNet.net.dll into the lib/ohNet folder. You should now be able to load, build and run OhNetSpy.sln in Visual Studio 2010.
+
+== Install ==
+
+Sorry, there's no installer.
