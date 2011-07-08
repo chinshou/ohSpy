@@ -1,0 +1,18 @@
+# Exclude the lib folder contents...
+/lib
+
+# ...except for the README files that explain what goes in the lib folder
+!/lib/README.txt
+!/lib/*/README.txt
+
+# Exclude bin and obj folders anywhere
+bin/
+obj/
+
+# Exclude temporary files and local settings
+*~
+.*.swp
+*.ReSharper.user
+*.suo
+_ReSharper.*
+
